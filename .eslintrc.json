@@ -1,0 +1,14 @@
+{
+  "plugins": ["react", "@typescript-eslint", "tailwindcss"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "tailwindcss/classnames-order": "off",
+    "prettier/prettier": ["error"]
+  }
+}
