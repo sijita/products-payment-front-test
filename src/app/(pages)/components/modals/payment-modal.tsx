@@ -8,6 +8,7 @@ import {
   DialogFooter,
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
+import PaymentForm from '@/app/(pages)/components/forms/payment-form';
 
 export default function PaymentModal({
   showPaymentModal,
@@ -25,6 +26,7 @@ export default function PaymentModal({
             Please enter your credit card and delivery information
           </DialogDescription>
         </DialogHeader>
+        <PaymentForm />
         <DialogFooter>
           <Button
             onClick={() => {
